@@ -5,24 +5,28 @@ body{
   outline: 2px;
   padding: 15px;**/
 }
+
+div{
+  position: absolute;
+}
 body >div{
   background-color: red;
   width: 20em;
   height: 20em;
-  box-sizing: border-box;
+  padding: 5em;
+ box-sizing: border-box; 
 
 }
 body >div >div{
   background-color: black;
   width: 10em;
   height: 10em;
+  top: 33%;
+  left: 33%;
 }
 body >div >div >div{
 background: purple;
 width: 5em;
 height: 5em;
-position: relative;
-top: -7.5;
-left: -7.5;
 
 }
