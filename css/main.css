@@ -1,0 +1,28 @@
+body{
+  background-color: silver;
+}
+/**body div{
+  outline: 2px;
+  padding: 15px;**/
+}
+body >div{
+  background-color: red;
+  width: 20em;
+  height: 20em;
+  box-sizing: border-box;
+
+}
+body >div >div{
+  background-color: black;
+  width: 10em;
+  height: 10em;
+}
+body >div >div >div{
+background: purple;
+width: 5em;
+height: 5em;
+position: relative;
+top: -7.5;
+left: -7.5;
+
+}
