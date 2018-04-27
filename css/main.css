@@ -14,7 +14,7 @@ body >div{
   width: 20em;
   height: 20em;
   padding: 5em;
- box-sizing: border-box; 
+ box-sizing: border-box;
 
 }
 body >div >div{
@@ -28,5 +28,7 @@ body >div >div >div{
 background: purple;
 width: 5em;
 height: 5em;
-
+position: absolute;
+top: 0;
+left: 0;
 }
